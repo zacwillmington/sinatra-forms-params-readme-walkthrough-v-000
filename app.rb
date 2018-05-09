@@ -8,6 +8,8 @@ class App < Sinatra::Base
 
   # Add your post route and action below
 
-  # post '/' 
+  post '/food' do
+      erb :food
+  end
 
 end
